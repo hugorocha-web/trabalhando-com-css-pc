@@ -1,0 +1,11 @@
+div{
+    display: inline-block;
+    background-color: rgb(187, 206, 200);
+    border: 1px solid black;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+div:hover{
+   background-color: rgb(255, 255, 255);
+}

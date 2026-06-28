@@ -1,0 +1,20 @@
+a{
+    color:blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(189, 189, 189);
+}
+a:active{
+    color: black;
+}
+a::before{
+    content: '[link] ';
+    color: black;
+}
+a::after{
+    content: ' :';
+}

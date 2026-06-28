@@ -1,0 +1,17 @@
+body{ 
+    background-image:linear-gradient(180deg,#37123C, #000000) ;
+    background-attachment: fixed;
+}
+*{
+    text-align: center;
+}
+h1{ 
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+p{ 
+    color: #71677C;
+}
+h2{
+    color: #945D5E;
+}

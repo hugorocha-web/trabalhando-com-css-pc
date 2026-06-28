@@ -1,0 +1,28 @@
+@charset "UTF-8"; 
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Share+Tech&family=Story+Script&display=swap');
+body{
+    background-color: rgb(25, 13, 48);
+}
+h1{
+    color:aliceblue;
+    text-align: center;
+    font-family: "Story Script";
+}
+#principal{
+    font-size: 50px;
+    background-color: #0d061d;
+    width: 450px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 20px;
+}
+h2{
+    color: antiquewhite;
+    font-family: "Archivo Black";
+}
+p{
+    color: white;
+    background-color: #0d061d;
+    padding: 6px;
+    border-radius: 5px;
+}

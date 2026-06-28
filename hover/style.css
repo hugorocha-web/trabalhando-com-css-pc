@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+div{
+    background-color: antiquewhite;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+}
+div > p{
+    display: none;
+}
+div:hover{
+    background-color: blue;
+    padding: 3px;
+    border-radius: 20px;
+}
+div:hover>p{
+    display: block;
+}
