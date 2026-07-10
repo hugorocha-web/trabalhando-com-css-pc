@@ -1,11 +1,201 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tabelas responsivas</title>
+    <title>tabela2</title>
+    <style>
+        h1{
+            text-align: center;
+            background-color: black;
+            color: aliceblue;
+            width: 400px;
+            margin: auto;
+            margin-bottom: 40px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        td,
+        th {
+            border: 1px solid black;
+            padding: 5px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        thead tr{
+            position: sticky;
+            top: -1px;
+            background-color: #4e4c4c;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 1000px;
+            height: 1000px;
+            margin: auto;
+            position: relative;
+        }
+
+        thead,
+        tfoot {
+            background-color: #4e4c4c;
+            color: aliceblue
+        }
+        caption{
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: antiquewhite;
+        }
+        tbody tr:nth-child(2n){
+            background-color: rgb(172, 172, 172);
+        }
+        #container{
+            overflow-x: auto;
+            margin: auto;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <!--
+    para tabelas grandes podemos ter 
+    table
+        caption = legenda da tabela
+        thead = cabeçalho da tabela
+            tr, td ,th
+        tbody = corpo da tabela
+            tr, td, th
+        tfoot = rodape da tabela
+            tr, td th
+    -->
+    <h1>Uso De Tabelas Grandes</h1>
+    <div id="container">
+        <table>
+            <caption>População das Unidadas Federativas</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Unidade Federativa</th>
+                    <th scope="col" style="width: 50px;">População</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Acre</td>
+                    <td>880.631</td>
+                </tr>
+                <tr>
+                    <td>Alagoas</td>
+                    <td>3.220.104</td>
+                </tr>
+                <tr>
+                    <td>Amapá</td>
+                    <td>802.837</td>
+                </tr>
+                <tr>
+                    <td>Amazonas</td>
+                    <td>3.941.613</td>
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td>14.136.417</td>
+                </tr>
+                <tr>
+                    <td>Ceará</td>
+                    <td>8.791.688</td>
+                </tr>
+                <tr>
+                    <td>Distrito Federal</td>
+                    <td>2.817.381</td>
+                </tr>
+                <tr>
+                    <td>Espírito Santo</td>
+                    <td>3.833.712</td>
+                </tr>
+                <tr>
+                    <td>Goiás</td>
+                    <td>7.350.483</td>
+                </tr>
+                <tr>
+                    <td>Maranhão</td>
+                    <td>6.775.805</td>
+                </tr>
+                <tr>
+                    <td>Mato Grosso</td>
+                    <td>3.836.399</td>
+                </tr>
+                <tr>
+                    <td>Mato Grosso do Sul</td>
+                    <td>2.901.895</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td>20.539.989</td>
+                </tr>
+                <tr>
+                    <td>Pará</td>
+                    <td>8.664.306</td>
+                </tr>
+                <tr>
+                    <td>Paraíba</td>
+                    <td>3.974.495</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td>11.824.665</td>
+                </tr>
+                <tr>
+                    <td>Pernambuco</td>
+                    <td>9.058.931</td>
+                </tr>
+                <tr>
+                    <td>Piauí</td>
+                    <td>3.271.199</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td>16.055.174</td>
+                </tr>
+                <tr>
+                    <td>Rio Grande do Norte</td>
+                    <td>3.302.729</td>
+                </tr>
+                <tr>
+                    <td>Rio Grande do Sul</td>
+                    <td>10.882.965</td>
+                </tr>
+                <tr>
+                    <td>Rondônia</td>
+                    <td>1.581.196</td>
+                </tr>
+                <tr>
+                    <td>Roraima</td>
+                    <td>636.707</td>
+                </tr>
+                <tr>
+                    <td>Santa Catarina</td>
+                    <td>8.058.447</td>
+                </tr>
+                <tr>
+                    <td>São Paulo</td>
+                    <td>44.420.459</td>
+                </tr>
+                <tr>
+                    <td>Sergipe</td>
+                    <td>2.291.077</td>
+                </tr>
+                <tr>
+                    <td>Tocantins</td>
+                    <td>1.511.460</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row">total de habitantes</th>
+                    <td>210.147.125</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
 </body>
+
 </html>
