@@ -9,7 +9,36 @@ grandes telas - acima de 1280px
 */
 
 
-@media print {}
+@media print {
+    main{
+        border: 2px solid black;
+    }
+    h1{
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+        color: black;
+    }
+    #tablet {
+        display:none;
+    }
+
+    #fone {
+        display: none;
+    }
+    #print {
+        display: block;
+    }
+
+    #pc {
+        display: none;
+    }
+
+    #tv {
+        display: none;
+    }
+
+
+}
 
 
 
