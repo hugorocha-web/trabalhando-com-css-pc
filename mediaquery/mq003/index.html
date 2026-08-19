@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*geral*/
+        * {
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        html,
+        body {
+            width: 100vw;
+            height: 100vh;
+            background-color: #233EFF;
+            background-size: contain;
+            background-repeat: no-repeat;
+
+        }
+
+        h1 {
+            color: aliceblue;
+            text-shadow: 1px 1px 0px rgb(16, 13, 94);
+            padding: 10px;
+        }
+
+        /*retrato*/
+        @media screen and (orientation: portrait) {
+            body {
+                background-image: url(cev-portrait.jpg);
+                background-position: center bottom;
+            }
+        }
+
+        /*paisagem*/
+        @media screen and (orientation: landscape) {
+            body {
+                background-image: url(cev-landscape.jpg);
+                background-position: left bottom;
+            }
+        }
+    </style>
+
+<body>
+    <h1>mude a orientação do seu dispositivo</h1>
+</body>
+
+</html>
